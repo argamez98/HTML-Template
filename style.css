@@ -26,16 +26,17 @@ html, body {
 
 .nav-links a, li {
         display: inline;
-        vertical-align: middle;
         list-style: none;
         text-align: center;
-        text-decoration: none;
         font-family: sans-serif;
         font-size: 18px;
         letter-spacing: 1px;
         color: #f2f2f2;
-    } 
+} 
 
+.nav-links li {
+  padding: 0 30px 0 20px;
+}
 /* START OF PROJECT BUTTON CSS */
 .projectButton,
 .projectButton:after {
