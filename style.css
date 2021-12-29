@@ -61,9 +61,12 @@ body {
     left: 50;
     font-family: sans-serif;
     letter-spacing: 0.5px;
-    color: #fff;  
+    color: #fff;
 }
-
+.heroText p {
+	font-size: 15px;
+	inline-size: 450px;
+}
 .nav-links a {
   font-size: 18px;
   text-decoration: none;
@@ -77,6 +80,7 @@ body {
 
 .nav-links {
   display: flex;
+  
 }
 /* START OF PROJECT BUTTON CSS */
 .btn {		
