@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
 *, *:before, *:after {
 	box-sizing: border-box;
 }
@@ -10,7 +11,7 @@ div:last-child {
 }
 html {
 	font-size: 12px;
-	font-family: 'Playfair Display', serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -41,10 +42,13 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	font-family: "Open Sans", sans-serif;
 }
 
 .heroBannerName {
 	text-align: center;
+	font-size: 30px ;
+	color: var(--inv);
 }
 
 .heroImage {
@@ -59,12 +63,12 @@ body {
     text-align: left;
     top: 50%;
     left: 50;
-    font-family: sans-serif;
     letter-spacing: 0.5px;
     color: #fff;
 }
 .heroText p {
 	font-size: 15px;
+	font-family: "Open Sans", sans-serif;
 	inline-size: 450px;
 }
 .nav-links a {
@@ -76,11 +80,12 @@ body {
   letter-spacing: 1px;
   color: #fff;
   font-family: sans-serif;
+  
 } 
 
 .nav-links {
   display: flex;
-  
+
 }
 /* START OF PROJECT BUTTON CSS */
 .btn {		
@@ -116,7 +121,7 @@ body {
 
 .btn:hover:after {
 	background: var(--inv);
-	transition-delay: .35s;
+	transition-delay: .25s;
 }
 .from-left:before, 
 .from-left:after {
@@ -148,6 +153,7 @@ body {
   overflow: hidden;
   border-bottom: 1px solid white;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
