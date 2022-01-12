@@ -23,10 +23,8 @@ body {
 }
 
 .column {
-  padding-left: 10px;
   color: #fff;
   margin: 0 auto;
-  width: 14em;
 }
 
 .column-content {
@@ -46,6 +44,7 @@ body {
 }
 
 .heroBannerName {
+	padding-bottom: 2em;
 	text-align: center;
 	font-size: 30px ;
 	color: var(--inv);
@@ -90,8 +89,8 @@ body {
 /* START OF PROJECT BUTTON CSS */
 .btn {		
 	position: relative;	
-	padding: 1.4rem 4.2rem;
-	padding-right: 2.3rem;
+	padding: 1.2rem 8.2rem;
+	padding-right: 3.3rem;
 	font-size: 1.4rem;
 	color: var(--inv);
 	letter-spacing: 1.2rem;
@@ -157,4 +156,17 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-    
+.aboutMe {
+	text-decoration-style: underline;
+}
+.educationRow {
+	display: flex;
+	font-size: 20px;
+}
+.educationDesc {
+	inline-size: 500px;
+}
+.utrgvLogo {
+	width: 200px;
+	padding-right: 20px;
+}
